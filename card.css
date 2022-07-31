@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  color: #11414b;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.secNavi {
+  padding: 0 2rem;
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col_2 {
+  display: block;
+  height: 100vh;
+  width: 50%;
+  float: left;
+}
+
+.about__img-overlay {
+  overflow: hidden;
+}
+
+/* rgba(5, 74, 145, 0.8)  */
+
+/* rgba(126, 213, 111, 0.5),  */
+
+/* body {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(61, 250, 255, 0.6),
+    rgba(40, 180, 133, 0.8)
+  );
+  background-image: linear-gradient(to right bottom, (#3e7cb1, #054a91));
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.home {
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-weight: 550;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.card {
+  background: #fff;
+  width: 270px;
+  margin: 16px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.card-img {
+  background-color: aqua;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.card h3,
+p {
+  padding: 10px;
+}
+
+.cardBg {
+  background-position: top;
+  background-size: cover;
+}
+
+.card-1 {
+  background-image: url(img/White\ Beach\ Boracay.jpg);
+}
+
+.card-2 {
+  background-image: url(img/Saud\ Beach\,\ Luzon\,\ Philippines.jpg);
+}
+
+.card-3 {
+  background-image: url(img/Elafonissi\ Beach.jpg);
+}
+
+.card-4 {
+  background-image: url(img/Hanalei\ Bay.jpg);
+}
+
+.card-5 {
+  background-image: url(img/Copacabana.jpg);
+}
+
+.card-6 {
+  background-image: url(img/Cape\ Le\ Grand\ National\ Park\,Western\ Australia.jpg);
+}
+.card-7 {
+  background-image: url(img/Clearwater\ Beach\,\ Florida.jpg);
+}
+
+.card-8 {
+  background-image: url(img/Sotavento\ Beach\,\ Fuerteventura\,\ Canary\ Islands.jpg);
+}
+
+.card-9 {
+  background-image: url(img/Camps\ Bay\ Beach\,\ Cape\ Town\,\ South\ Africa.jpg);
+}
+
+.card-10 {
+  background-image: url(img/Anse\ Source\ D\'Agent.jpg);
+}
+
+.card-11 {
+  background-image: url(img/Le\ Morne\,\ Mauritius.jpg);
+}
+
+.card-12 {
+  background-image: url(img/La\ Pelosa\ Beach\,\ Sardinia\,\ Italy.jpg);
+}
+
+.button {
+  display: block;
+  background-color: #14505c;
+  color: #fff;
+  padding: 15px 20px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0e373f;
+}
